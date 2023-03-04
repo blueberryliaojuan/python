@@ -12,10 +12,15 @@ print(type('this is a sentence'))
 num_str = str(1212)
 print(type(num_str), num_str)
 
-if True:
-    print("It's true")
-else:
-    print("It's false")
+num = 20
+salary = 5000
+print('there are %s women whose salary is over %d dollars' % (num, salary))
+
+data1=30000
+data2=23.45
+print('data1:%7d,data2:%7.1f' % (data1, data2))
+
+
 
 f = open('file.txt', 'w', encoding='utf-8')
 
