@@ -16,11 +16,11 @@ import random
 
 num = random.randint(1, 10)
 # print(num)
-yourGuess = int(input('please guess a number, from 1-10'))
-if yourGuess == num:
+your_guess = int(input('please guess a number, from 1-10'))
+if your_guess == num:
     print('Congs! You got it!')
 else:
-    if yourGuess > num:
+    if your_guess > num:
         print('your number is too big')
     else:
         print('your number is too small')
