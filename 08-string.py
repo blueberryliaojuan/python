@@ -3,6 +3,8 @@ value1 = my_str[3]
 print(value1)
 value2 = my_str[-3]
 print(value2)
+value3 = my_str[1:5]
+print(value3)
 
 # my_str[2] = 3  #str' object does not support item assignment
 index = my_str.index('and')
